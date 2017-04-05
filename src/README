@@ -1,0 +1,25 @@
+NOTE: Address suggestions and auto-complete will NOT work without 'allow location' in browser.
+
+AMNE second assignment
+
+This is a web app that takes two addresses as inputs, and outputs a list of real estate agencies with 10 miles, sorted by total sum distance.
+
+Dependencies:
+	Python 3.5.x
+	|- Flask
+	|- requests
+
+Viewing the application:
+	1. On the web:
+		a. Visit http://vncentwu.pythonanywhere.com/ to view the app online.
+		b. Manually allowed shared location in browser
+		c. input addresses and submit
+
+	2. Build locally:
+		a. Make sure you have all the required dependencies above
+		b. $ python run.py
+		c. visit localhost:5000 and allow shared location (IMPORTANT)
+		d. input addresses and submit
+
+Source code:
+	Available here (locally) and on github.
